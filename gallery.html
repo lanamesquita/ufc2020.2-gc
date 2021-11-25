@@ -7,32 +7,39 @@
         <link rel="shortcut icon" href="assets/img/icon-gc.png" type="image/x-icon">
     </head>
     <body>
-        <header class="cabecalho">
-            <nav class="nav-bar">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="gallery.html">Galeria</a></li>
-                    <li><a href="about.html">Sobre</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="conteudo-bem-vindo">
+
+        <header>
+            <div class="janela">
+                <div class="janela_content">
+                    <img src="assets/img/img.jpg" id="img_janela">
+                </div>
+                <div id="btn_close"><span>&times;</span></div>
+            </div>
+
+            <div class="cabecalho">
+                <nav class="nav-bar">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="gallery.html">Galeria</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <section>
                 <div class="titulo-conteudo">
                     <h1>Bem-vindo(a) à galeria de práticas!</h1>
                 </div>
-                <div class="conteudo-image-links">
-                    <ul>
-                        <li><a href="image-01.html">Imagem número 1 da prática</a></li>
-                        <li><a href="image-02.html">Imagem número 2 da prática</a></li>
-                        <li><a href="image-03.html">Imagem número 3 da prática</a></li>
-                        <li><a href="telegramjr.html">Telegram Jr.</a></li>
-                        <li><a href="image-04.html">Imagem número 4 da prática</a></li>
-                        <li><a href="image-05.html">Imagem número 5 da prática</a></li>
-
-                    </ul>
-                </div>
+                <div class="conteiner">
+                    <div class="img-box">
+                        <div class="box_img"><img src="assets/img/foto.jpg" alt="Primeira foto da Pratica" class="size_img"></div>
+                        <div class="box_img"><img src="assets/img/img-fabs.jpeg" alt="Segunda foto da Pratica" class="size_img"></div>
+                        <div class="box_img"><img src="assets/img/code.jpg" alt="Terceira foto da Pratica" class="size_img"></div>
+                        <div class="box_img"><img src="assets/img/image-04.jpg" alt="Qaurta foto da Pratica" class="size_img"></div>
+                        <div class="box_img"><img src="assets/img/img.jpg" alt="Quinta foto da Pratica" class="size_img"></div>
+                        <div class="box_img"><img src="assets/img/imagem-05.jpg" alt="Sexta foto da Pratica" class="size_img"></div>
+                    </div>
             </section>
-        </main>
+        </header>
     </body>
+    <script src="scripts/galeria.js"></script>
 </html>
